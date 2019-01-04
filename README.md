@@ -59,7 +59,15 @@ PC configuration used for this project:
 * Graphics: Intel HD Graphics 5000 1536MB
 
 ### Environment setup
-For detailed Python environment setup (PyTorch, Unity Environment, and a few more Python packages) please follow these [steps](https://github.com/udacity/deep-reinforcement-learning#dependencies): 
+For detailed Python environment setup (PyTorch, Unity Environment, and a few more Python packages) please follow these [steps](https://github.com/udacity/deep-reinforcement-learning#dependencies).
+For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
+
+* Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+* Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+* Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+* Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+
+Then, place the file in the folder GitHub repository, and unzip (or decompress) the file.
 
 ### Structure
 All project files are structured as follows:
@@ -73,5 +81,4 @@ All project files are structured as follows:
 * Report.md- Explains the algorithm used and ideas for future improvement.
 * README.md- It describes the project environment details, installation instruction and running code.
 * images- This folder contains diiferent images used in the project.
-* Tennis.app- It contains the built in unity environment used in the project.It can be downloaded from the [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip).
 * Tennis.ipynb- This notebook contains training code for the agent and our solution for this environment.
