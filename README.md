@@ -1,8 +1,11 @@
 # Collaborate and Competition
 
-| Untrained Agents | Trained Agents |
-| ------------- | ------------- |
-| ![Untrained Tennis](images/tennis_untrained.gif)  
+| Untrained Agents Playing Tennis | 
+| ------------------------------- | 
+| ![Untrained Tennis](images/tennis_untrained.gif)| 
+
+|   Trained Agents Playing Tennis | 
+| ------------------------------- | 
 | ![Trained Tennis](images/tennis_trained.gif) |
 
 
