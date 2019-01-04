@@ -82,4 +82,4 @@ All project files are structured as follows:
 * Report.md- Explains the algorithm used and ideas for future improvement.
 * README.md- It describes the project environment details, installation instruction and running code.
 * images- This folder contains diiferent images used in the project.
-* Tennis.ipynb- This notebook contains training code for the agent and our solution for this environment.
+* Tennis.ipynb- This notebook contains training code for the agents and our solution for this environment.
