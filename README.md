@@ -31,7 +31,17 @@ Unity brain name: TennisBrain
         Vector Action space size (per agent): 2
         Vector Action descriptions: ,
 ```
-
+```
+The reshaped state vector for the first agent looks like:
+racket x pos      0.0 0.0 -6.6527862548828125
+racket y pos      0.0 0.0 -1.5
+racket x velocity 0.0 0.0 -0.0
+racket y velocity 0.0 0.0 0.0
+ball   x pos      0.0 0.0 6.83172082901001
+ball   y pos      0.0 0.0 6.0
+ball   x velocity 0.0 0.0 -0.0
+ball   y velocity 0.0 0.0 0.0
+```
 The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
 
 * After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
