@@ -73,5 +73,5 @@ All project files are structured as follows:
 * Report.md- Explains the algorithm used and ideas for future improvement.
 * README.md- It describes the project environment details, installation instruction and running code.
 * images- This folder contains diiferent images used in the project.
-* Reacher20.app- It contains the built in unity environment used in the project.
+* Tennis.app- It contains the built in unity environment used in the project.It can be downloaded from the [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip).
 * Tennis.ipynb- This notebook contains training code for the agent and our solution for this environment.
