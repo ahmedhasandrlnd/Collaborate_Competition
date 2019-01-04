@@ -66,10 +66,10 @@ All project files are structured as follows:
 
 * maddpg_agent.py - It contains agent, noise and replay buffer class implementation. agent class interacts with and learns from the environment. replay buffer class has a fixed-size buffer to store experience tuples. noise class is used to explore the environment more.
 * model.py - It contains the neural network architecture for the actor and critic networks.
-* checkpoint_actor_0.pth- It contains the trained model weights of the actor network of the first agent.
-* checkpoint_actor_1.pth- It contains the trained model weights of the second actor network of the second agent.
-* checkpoint_critic_0.pth- It contains the trained model weights of the critic network of the first agent.
-* checkpoint_critic_1.pth- It contains the trained model weights of the critic network  of the second agent.
+* checkpoint_actor_0b.pth- It contains the trained model weights of the actor network of the first agent.
+* checkpoint_actor_1b.pth- It contains the trained model weights of the second actor network of the second agent.
+* checkpoint_critic_0b.pth- It contains the trained model weights of the critic network of the first agent.
+* checkpoint_critic_1b.pth- It contains the trained model weights of the critic network  of the second agent.
 * Report.md- Explains the algorithm used and ideas for future improvement.
 * README.md- It describes the project environment details, installation instruction and running code.
 * images- This folder contains diiferent images used in the project.
