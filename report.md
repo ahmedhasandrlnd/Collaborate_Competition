@@ -1,10 +1,11 @@
 # Project report
 ### Learning algorithm
 
-* There are many interesting papers out there on MARL. One particular paper is called [“Multi Agent Actor Critic for Mixed Cooperative Competitive environments “ ](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) by OpenAI. This paper used a multi-agent decentralized actor, centralized crtic appraoch as shown below.
+* There are many interesting papers out there on MARL. One particular paper is called [“Multi Agent Actor Critic for Mixed Cooperative Competitive environments“](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) by OpenAI. This paper used a multi-agent decentralized actor, centralized crtic appraoch as shown below:
+
 ![MARL](images/marl.png)
 
-We can also apply single agent techniques to multi-agent case in two approaches:
+* We can also apply single agent techniques to multi-agent case in two approaches:
 	* Non-stationarity approach: In this approach, all the agents are trained independently without considering the existence of other agents. In this approach, any agent considers all the other agents as part of the environment and learn its own policy. Since all agents are learning simultaneously, the environment as seen seen from the perspective of a single agent changes dynamically. Hence this non-stationarity condition does not guarante convergence.
 
 	* Meta Agent approach: This approach takes into account the existence of multiple agents. Here a single policy is learned learned for all the agents. It takes as input the present state of the environment and returns the action of each agent in the form of a single joint action vector. The joint action vector increases exponentially with the number of agents. This approach works well when each agent knows everything about the environment.
